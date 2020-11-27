@@ -1,0 +1,40 @@
+.lead__image {
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../../../images/__lead/__image.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    width: 984px;
+    height: 615px;
+    margin: 0 148px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .lead__image {
+    width: 928px;
+    height: 580px;
+    margin: 0 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+  }
+}
