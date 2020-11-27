@@ -1,0 +1,6 @@
+.body {
+  width: 100vw;
+  display: flex;
+
+  background-color: #2A2C2F;
+}
