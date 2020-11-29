@@ -1,0 +1,16 @@
+.intro__text {
+  width: inherit;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 33px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+/* В макете в этом элементе паддинг снизу в версии для экрана 320 отличается всего 1 пикселем.
+Подозреваю, что это намеренно вставленная "ошибка дизайнера", как в примере в теоретической части. */
