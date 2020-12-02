@@ -12,7 +12,6 @@
 
 .header__lang-link:first-child {
   padding-right: 18px;
-  text-decoration-line: underline;
 }
 
 .header__lang-link:hover {
