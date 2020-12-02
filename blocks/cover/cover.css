@@ -1,0 +1,38 @@
+.cover {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  text-decoration: none;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cover {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .cover {
+    width: 320px;
+  }
+}
