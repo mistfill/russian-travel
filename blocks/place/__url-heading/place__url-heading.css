@@ -1,0 +1,38 @@
+.place__url-heading {
+  margin: 0;
+  padding: 0;
+  color: #AAA;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  grid-row: 1;
+  grid-column: 2;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    display: none;
+  }
+}

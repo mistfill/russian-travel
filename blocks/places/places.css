@@ -1,0 +1,38 @@
+.places {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    min-width: 984px;
+    margin: 0 148px;
+    padding: 92px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .places {
+    min-width: 928px;
+    margin: 0 48px;
+    padding: 92px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places {
+    min-width: 720px;
+    margin: 0 24px;
+    padding: 88px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    min-width: 320px;
+    padding: 64px 0;
+  }
+}

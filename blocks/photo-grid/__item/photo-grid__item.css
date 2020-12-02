@@ -1,5 +1,4 @@
 .photo-grid__item {
-  border: 1px solid red;
   object-fit: cover;
   object-position: center center;
   margin: 0;
