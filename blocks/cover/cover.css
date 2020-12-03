@@ -1,6 +1,5 @@
 .cover {
   margin: 0 auto;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -8,14 +7,19 @@
   align-items: start;
   width: 92.5%;
   row-gap: 32px;
-  border: 1px solid red;
 }
 
 .cover:hover .cover__overlay {
   opacity: .8;
 }
 
-@media screen and (min-height: 768px) {
+@media screen and (max-width: 1280px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .cover {
     row-gap: 16px;
   }

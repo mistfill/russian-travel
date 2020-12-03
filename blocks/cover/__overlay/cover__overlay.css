@@ -5,14 +5,9 @@
   grid-column: 1;
   opacity: .3;
   transition: opacity .3s ease-in-out;
+  height: 740px;
 }
 
-
-@media screen and (min-width: 1280px) {
-  .cover__overlay {
-    height: 740px;
-  }
-}
 
 @media screen and (max-width: 1280px) {
   .cover__overlay {
