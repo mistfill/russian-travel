@@ -5,11 +5,12 @@
   background-position: center;
   margin: 0;
   padding: 0;
-  width: inherit;
+  width: 100%;
   z-index: -1;
   grid-row: 1/-1;
   grid-column: 1;
 }
+
 
 @media screen and (min-width: 1280px) {
   .cover__background {
@@ -17,19 +18,19 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .cover__background {
     height: 640px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover__background {
     height: 480px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover__background {
     height: 200px;
   }
