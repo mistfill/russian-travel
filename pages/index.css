@@ -1,7 +1,7 @@
 /*Нормализация*/
 @import url('../vendor/normalize.css');
 /*Fonts*/
-@import url('../fonts/inter.css');
+@import url('../vendor/fonts.css');
 /*Body*/
 @import url('../blocks/body/body.css');
 /*Основной блок страницы*/
