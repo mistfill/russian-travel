@@ -2,10 +2,14 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+  align-self: end;
   font-style: normal;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   color: #fff;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {

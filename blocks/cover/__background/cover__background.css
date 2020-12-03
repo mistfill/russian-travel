@@ -7,30 +7,30 @@
   padding: 0;
   width: inherit;
   z-index: -1;
-  grid-row: 1;
+  grid-row: 1/-1;
   grid-column: 1;
 }
 
 @media screen and (min-width: 1280px) {
   .cover__background {
-    max-height: 740px;
+    height: 740px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover__background {
-    max-height: 640px;
+    height: 640px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .cover__background {
-    max-height: 480px;
+    height: 480px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .cover__background {
-    max-height: 200px;
+    height: 200px;
   }
 }

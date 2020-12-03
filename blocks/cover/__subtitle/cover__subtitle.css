@@ -6,6 +6,9 @@
   font-family: 'Inter', sans-serif;
   font-weight: normal;
   color: #fff;
+  grid-row: 2;
+  grid-column: 1;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
