@@ -1,5 +1,4 @@
 .lead__image {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   object-fit: cover;
@@ -13,7 +12,6 @@
   .lead__image {
     max-width: 928px;
     max-height: 580px;
-    margin: 0 auto;
   }
 }
 

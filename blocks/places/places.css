@@ -1,8 +1,6 @@
 .places {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
   min-width: 984px;
   margin: 0 148px;
   padding: 92px 0;
@@ -12,7 +10,6 @@
   .places {
     min-width: 928px;
     margin: 0 48px;
-    padding: 92px 0;
   }
 }
 
