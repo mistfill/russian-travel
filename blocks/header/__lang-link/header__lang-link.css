@@ -8,6 +8,8 @@
   padding: 0;
   transition: opacity .3s ease-in-out;
   box-sizing: border-box;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .header__lang-link:first-child {
@@ -16,14 +18,6 @@
 
 .header__lang-link:hover {
   opacity: .5;
-}
-
-
-@media screen and (min-width: 768px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-  }
 }
 
 @media screen and (max-width: 768px) {

@@ -6,15 +6,10 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
+  padding-bottom: 64px;
 }
 
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    padding-bottom: 64px;
-  }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1280px) {
   .lead__subtitle {
     width: 640px;
     font-size: 30px;

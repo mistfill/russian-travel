@@ -7,17 +7,12 @@
   grid-column: 1;
   margin: 0;
   padding: 0;
+  width: 460px;
+  font-size: 72px;
+  line-height: 76px;
 }
 
-@media screen and (min-width: 1280px) {
-  .place__title {
-    width: 460px;
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .place__title {
     width: 440px;
     font-size: 72px;
@@ -25,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     width: 340px;
     font-size: 42px;

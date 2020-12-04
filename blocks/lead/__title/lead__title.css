@@ -6,14 +6,9 @@
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   color: #fff;
-}
-
-@media screen and (min-width: 768px) {
-  .lead__title {
-    width: 720px;
-    font-size: 96px;
-    line-height: 100px;
-  }
+  width: 720px;
+  font-size: 96px;
+  line-height: 100px;
 }
 
 @media screen and (max-width: 768px) {
