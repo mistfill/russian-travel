@@ -13,20 +13,6 @@
   opacity: .5;
 }
 
-@media screen and (max-width: 1280px) {
-  .place__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .place__link {
     display: none;

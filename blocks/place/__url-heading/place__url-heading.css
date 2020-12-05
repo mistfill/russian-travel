@@ -10,20 +10,7 @@
   font-size: 12px;
   line-height: 12px;
   text-transform: uppercase;
-}
-
-@media screen and (max-width: 1280px) {
-  .place__url-heading {
-    font-size: 12px;
-    line-height: 12px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place__url-heading {
-    font-size: 12px;
-    line-height: 12px;
-  }
+  letter-spacing: 0.2em;
 }
 
 @media screen and (max-width: 768px) {
