@@ -23,7 +23,7 @@
 }
 
 /*320px*/
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 755px) {
   .cover {
     width: 320px;
     height: 200px;
