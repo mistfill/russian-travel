@@ -25,8 +25,6 @@
   .place {
     grid-template-columns: 340px 352px;
     column-gap: 28px;
-    grid-template-rows: minmax(min-content, max-content);
-    row-gap: 48px;
     padding-bottom: 73px;
   }
 }
@@ -34,7 +32,6 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: minmax(min-content, max-content);
     row-gap: 32px;
     padding-bottom: 49px;
   }
