@@ -1,5 +1,5 @@
 .place {
-  width: inherit;
+  width: 984px;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -11,8 +11,14 @@
   padding-bottom: 80px;
 }
 
+.place:last-child {
+  padding-bottom: 0;
+}
+
+/*1024px*/
 @media screen and (max-width: 1280px) {
   .place {
+    width: 928px;
     grid-template-columns: 440px 456px;
     column-gap: 32px;
     grid-template-rows: minmax(min-content, max-content);
@@ -21,16 +27,20 @@
   }
 }
 
+/*768px*/
 @media screen and (max-width: 1024px) {
   .place {
+    width: 720px;
     grid-template-columns: 340px 352px;
     column-gap: 28px;
     padding-bottom: 73px;
   }
 }
 
+/*320px*/
 @media screen and (max-width: 768px) {
   .place {
+    width: 320px;
     grid-template-columns: minmax(min-content, max-content);
     row-gap: 32px;
     padding-bottom: 49px;

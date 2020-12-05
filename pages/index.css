@@ -4,6 +4,8 @@
 @import url('../vendor/fonts.css');
 /*Body*/
 @import url('../blocks/body/body.css');
+/*main*/
+@import url('../blocks/main/main.css');
 /*Основной блок страницы*/
 @import url('../blocks/page/page.css');
 /*Header*/

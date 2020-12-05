@@ -5,26 +5,21 @@
   color: #fff;
   font-style: normal;
   font-weight: normal;
-  min-width: 158px;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  padding-left: 148px;
+  width: 158px;
 }
 
-@media screen and (max-width: 1280px) {
-  .lead__caption {
-    padding-left: 48px;
-  }
-}
-
+/*768px*/
 @media screen and (max-width: 1024px) {
   .lead__caption {
     padding-left: 24px;
   }
 }
 
+/*320px*/
 @media screen and (max-width: 768px) {
   .lead__caption {
     padding-left: 16px;

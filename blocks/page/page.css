@@ -1,6 +1,5 @@
 .page {
-  min-width: 320px;
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
   padding: 0;
   text-rendering: optimizeLegibility;
@@ -10,4 +9,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*1024px*/
+@media screen and (max-width: 1280px) {
+  .page {
+    width: 1024px;
+  }
+}
+
+/*768px*/
+@media screen and (max-width: 1024px) {
+  .page {
+    width: 768px;
+  }
+}
+
+/*320px*/
+@media screen and (max-width: 768px) {
+  .page {
+    width: 320px;
+  }
 }

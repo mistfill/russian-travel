@@ -1,30 +1,36 @@
 .header {
-  width: inherit;
-  margin: 0;
+  width: 1184px;
+  margin: 0 48px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 28px 48px 56px 48px;
+  padding: 28px 0 56px;
 }
 
+/*1024px*/
 @media screen and (max-width: 1280px) {
   .header {
+    width: 928px;
     padding-bottom: 48px;
   }
 }
 
+/*768px*/
 @media screen and (max-width: 1024px) {
   .header {
-    padding-right: 24px;
-    padding-left: 24px;
+    width: 720px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
+/*320px*/
 @media screen and (max-width: 768px) {
   .header {
+    width: 288px;
     padding-top: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
