@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 288px;
     padding-bottom: 25px;

@@ -20,14 +20,14 @@
 }
 
 /*768px*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover__subtitle {
     margin: 0 204px;
   }
 }
 
 /*320px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     width: 288px;
     font-size: 14px;

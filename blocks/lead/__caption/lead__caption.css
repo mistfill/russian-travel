@@ -9,18 +9,18 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  width: 158px;
+  min-width: 158px;
 }
 
 /*768px*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
   }
 }
 
 /*320px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     padding-left: 16px;
   }

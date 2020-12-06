@@ -19,14 +19,14 @@
 }
 
 /*768px*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .page {
     width: 768px;
   }
 }
 
 /*320px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .page {
     width: 320px;
   }

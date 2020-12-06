@@ -28,7 +28,7 @@
 }
 
 /*768px*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place {
     width: 720px;
     grid-template-columns: 340px 352px;
@@ -38,7 +38,7 @@
 }
 
 /*320px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
     width: 320px;
     grid-template-columns: minmax(min-content, max-content);

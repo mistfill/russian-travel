@@ -13,7 +13,7 @@
   letter-spacing: 0.2em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
     display: none;
   }
