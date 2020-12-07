@@ -3,9 +3,10 @@
   font-style: normal;
   font-weight: 900;
   color: #fff;
-  width: 720px;
+  max-width: 720px;
   padding: 0;
-  margin: 0 132px;
+  /*margin: 0 132px;*/
+  margin: 0 auto;
   font-size: 96px;
   line-height: 100px;
 }
@@ -13,25 +14,25 @@
 /*1024px*/
 @media screen and (max-width: 1280px) {
   .lead__title {
-    margin-left: 104px;
-    margin-right: 104px;
+    /*margin-left: 104px;
+    margin-right: 104px;*/
   }
 }
 
 /*768px*/
 @media screen and (max-width: 1023px) {
   .lead__title {
-    margin-left: 24px;
-    margin-right: 24px;
+    /*margin-left: 24px;
+    margin-right: 24px;*/
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__title {
-    width: 288px;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
-    margin-left: 16px;
-    margin-right: 16px;
+    /*margin-left: 16px;
+    margin-right: 16px;*/
   }
 }

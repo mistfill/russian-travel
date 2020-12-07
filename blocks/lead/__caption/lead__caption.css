@@ -10,6 +10,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   min-width: 158px;
+  max-width: 100%;
 }
 
 /*768px*/

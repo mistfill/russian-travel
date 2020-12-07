@@ -6,7 +6,7 @@
   color: #fff;
   box-sizing: border-box;
   align-self: start;
-  max-width: 484px;
+  max-width: 100%;
   font-size: 18px;
   line-height: 163%;
   padding-bottom: 26px;
@@ -18,13 +18,13 @@
 
 @media screen and (max-width: 1280px) {
   .place__paragraph {
-    max-width: 456px;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-    max-width: 352px;
+    max-width: 100%;
     font-size: 16px;
     padding-bottom: 25px;
   }
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    max-width: 288px;
+    max-width: 100%;
     padding-bottom: 25px;
     margin: 0 auto;
   }
