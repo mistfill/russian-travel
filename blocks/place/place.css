@@ -44,6 +44,5 @@
     grid-template-columns: minmax(min-content, max-content);
     row-gap: 32px;
     padding-bottom: 49px;
-    column-gap: 0;
   }
 }

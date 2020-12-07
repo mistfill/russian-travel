@@ -7,7 +7,6 @@
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(auto, 213px);
   gap: 16px;
-  /*margin: 0 48px;*/
   margin: 0 auto;
 }
 
@@ -28,8 +27,6 @@
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(auto, 264px);
     gap: 16px;
-    /*margin-left: 24px;
-    margin-right: 24px;*/
   }
 }
 
@@ -40,7 +37,5 @@
     grid-template-columns: 288px;
     grid-template-rows: repeat(auto, 216px);
     row-gap: 12px;
-    /*margin-left: 16px;
-    margin-right: 16px;*/
   }
 }

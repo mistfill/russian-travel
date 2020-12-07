@@ -6,7 +6,6 @@
   font-size: 30px;
   line-height: 36px;
   max-width: 640px;
-  /*margin: 0 172px;*/
   margin: 0 auto;
   padding: 0;
   padding-top: 32px;
@@ -17,16 +16,6 @@
 @media screen and (max-width: 1280px) {
   .lead__subtitle {
     padding-bottom: 56px;
-    /*margin-left: 144px;
-    margin-right: 144px;*/
-  }
-}
-
-/*768px*/
-@media screen and (max-width: 1023px) {
-  .lead__subtitle {
-    /*margin-left: 64px;
-    margin-right: 64px;*/
   }
 }
 
@@ -38,7 +27,5 @@
     line-height: 20px;
     padding-top: 16px;
     padding-bottom: 40px;
-    /*margin-left: 16px;
-    margin-right: 16px;*/
   }
 }
