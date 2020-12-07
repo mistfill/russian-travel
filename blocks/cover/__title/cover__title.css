@@ -14,14 +14,18 @@
 /*1024px*/
 @media screen and (max-width: 1280px) {
   .cover__title {
-    margin: 195px 232px 0;
+    margin-top: 195px;
+    margin-left: 232px;
+    margin-right: 232px;
   }
 }
 
 /*768px*/
 @media screen and (max-width: 1023px) {
   .cover__title {
-    margin: 115px 104px 0;
+    margin-top: 115px;
+    margin-right: 104px;
+    margin-left: 104px;
   }
 }
 
@@ -31,6 +35,8 @@
     width: 288px;
     font-size: 32px;
     line-height: 35px;
-    margin: 33px 16px 0;
+    margin-top: 33px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

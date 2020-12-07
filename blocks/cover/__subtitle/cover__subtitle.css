@@ -15,14 +15,16 @@
 /*1024px*/
 @media screen and (max-width: 1280px) {
   .cover__subtitle {
-    margin: 0 332px;
+    margin-left: 332px;
+    margin-right: 332px;
   }
 }
 
 /*768px*/
 @media screen and (max-width: 1023px) {
   .cover__subtitle {
-    margin: 0 204px;
+    margin-left: 204px;
+    margin-right: 204px;
   }
 }
 
@@ -33,6 +35,7 @@
     font-size: 14px;
     line-height: 16px;
     padding-top: 16px;
-    margin: 0 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
