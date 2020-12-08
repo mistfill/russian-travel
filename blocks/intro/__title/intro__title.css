@@ -1,5 +1,5 @@
 .intro__title {
-  width: inherit;
+  max-width: 690px;
   color: #fff;
   font-style: normal;
   font-weight: 900;

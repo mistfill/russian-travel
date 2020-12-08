@@ -1,5 +1,5 @@
 .intro__text {
-  width: inherit;
+  max-width: 690px;
   margin: 0;
   padding: 0;
   padding-bottom: 33px;
